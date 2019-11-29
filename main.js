@@ -58,12 +58,14 @@ $(document).ready(function () {
     }
 
     function StartTextAnimation(i) {
+        if (typeof dataText[i] == 'undefined') {
+            return;
+        }
         if (i < dataText[i].length) {
-            typeWriter(dataText[i], 0, function() {
+            typeWriter(dataText[i], 0, function () {
                 StartTextAnimation(i + 1);
             });
         }
     }
-
     StartTextAnimation(0);
 });
