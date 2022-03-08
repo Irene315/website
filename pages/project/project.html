@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Xinyuan Zhang | Home </title>
+        <meta charset="UTF-8">
+		<link rel ="stylesheet" type ="text/css" href ="project.css">
+		<link href="https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+	
+		<header>      
+			<h1>Miscellaneous Projects</h1>
+		</header>
+
+        <div id="project">
+
+            <h3> Mini-C Compiler </h3>
+            <p>a small subset of C parser, compiler and AST interpreter written in Haskell</p>
+
+            <h3> Rename with Excel </h3>
+            <p>rename a batch of files according to a rename list in Excel written in VBA</p>
+
+            <h3> Wechat Message Withdraw Catcher </h3>
+            <div class="project">
+            <p>a python program that captures messages retracted in Wechat conversations
+                and sends the captured messages back to the withdrawer</p>
+            <img width="400" src="projects/wechat.jpg"/> 
+            </div>
+
+            <h3> Web Audit on Eventbrite.com </h3>
+            <div class="project">
+            <p>analyze client-server communication from the website and perform responsible disclosure</p>
+            <img width="400" src="projects/poster.jpg"/> 
+            </div>
+
+            <h3> Ant Simulator </h3>
+            <div class="project">
+            <p>3D modeling and transformation with Java and OpenGL that simulates a controllable ant object</p>
+            <img width="400" src="projects/dab_ant.jpg"/> 
+            </div>
+
+            <h3> Vivarium </h3>
+            <div class="project">
+            <p>3D vivarium simulation with Java and OpenGL that the ant avoids the spider
+            and the spider eats food</p>
+            <img width="400" src="projects/vivarium.jpg"/>
+            </div>
+
+            <h3> 3D Rasterization </h3>
+            <div class="project">
+            <p>3D shape and light rendering with Java</p>
+            <img width="400" src="projects/mickey.jpg"/>
+            </div>
+
+        </div>
+		
+		<footer>
+		<p> <em><strong>Xinyuan Zhang</strong></em> &copy; <span id="time"></span></p>
+            <script>
+                (function () {
+                    var today = new Date();
+                    document.getElementById("time").innerHTML = today.getFullYear();
+                })();  
+            </script>
+		</footer>
+		
+	</body>
+</html>

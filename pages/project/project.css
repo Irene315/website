@@ -1,0 +1,77 @@
+*{margin: 0;
+}
+
+html {height: 100%;
+      background-color: hsla(171, 65%, 84%, 0.4);
+}
+
+header{max-width: 100%;
+       color: black;
+       padding: 2em 2em 0 2em;
+       box-sizing: border-box;
+       font-size: calc(10px + 1vw);
+       font-family: "Times New Roman", Didot, Bookman, Times;
+}
+       
+h1{font-size: calc(20px + 2vw);
+   display: inline;
+}
+
+h3{font-size: calc(8px + 1.5vw);
+}
+
+li{font-size: calc(6px + 1.2vw);
+   padding: 1% 0 0 0;
+}
+
+a{
+    color: slategrey;
+    text-decoration: none;
+}
+
+a:hover {
+    color: navy;
+}
+
+p{font-size: calc(8px + 1.2vw);
+}
+
+footer{max-width: 100%;
+       text-align: center;
+       padding: 2% 10%;
+       font-size: calc(10px + 1vw);
+       font-family: "Waiting for the Sunrise";
+}
+
+#project{
+    padding: 0 2% 5% 2%;
+    font-family: "Times New Roman", Didot, Bookman, Times;
+}
+
+#project h3{
+    border-bottom: solid black 1px;
+    margin-right: 60%;
+    margin-top: 3%;
+}
+
+#project p{
+    font-size: calc(6px + 1.2vw);
+    display:inline;
+}
+
+.project{
+    float:left;
+    width: 90%;
+}
+
+.project img{
+    float: left;
+    width: 30%;
+}
+
+.project p{
+    float: left;
+    width: 60%;
+}
+
+
