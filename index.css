@@ -27,12 +27,12 @@ li{font-size: calc(6px + 1.2vw);
 }
 
 a{
-    color: slategrey;
+    color: #163206;
     text-decoration: none;
 }
 
 a:hover {
-    color: navy;
+    color: slategrey;
 }
 
 p{font-size: calc(8px + 1.2vw);
