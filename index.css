@@ -27,12 +27,14 @@ li{font-size: calc(6px + 1.2vw);
 }
 
 a{
-    color: #07460F;
+    /*color: #07460F;*/
+    color: #97a7be;
     text-decoration: none;
 }
 
 a:hover {
-    color: slategrey;
+    /*color: slategrey;*/
+    color: #c2cad7;
 }
 
 p{font-size: calc(8px + 1.2vw);
