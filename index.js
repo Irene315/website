@@ -40,9 +40,12 @@ function displayImage() {
 	var date = new Date();
 	var month = date.getMonth();
 	var picElem = document.getElementById("me");
-	if ((5 <= month) && (month <= 10)) {
-  		picElem.setAttribute("src", "media/me_summer.jpg");
+	if ((3 <= month) && (month <= 6)) {
+  		picElem.setAttribute("src", "media/me_spring.jpg");
 	}
+    else if ((7 <= month) && (month <= 10)) {
+        picElem.setAttribute("src", "media/me_summer.jpg");
+    }
 	else {
   		picElem.setAttribute("src", "media/me_winter.jpg");
 	}
